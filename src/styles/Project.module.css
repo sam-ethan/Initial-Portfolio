@@ -1,0 +1,47 @@
+.container {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #0C0B12;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cards {
+    gap:30px;
+    margin-top: 10px;
+    display: grid;
+        color:white;
+    grid-template-columns:repeat(2,1fr);
+    margin-left: 10px;
+}
+
+.cardsDesign {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 20px;
+    width: 500px;
+    height:300px;
+    border:1px solid white;
+    color:white;
+    line-height: 1.5;
+    border-radius: 4px;
+    background-color: #1B1A26;
+}
+.cardsDesign:hover {
+      transform: translateY(-8px);
+      border-color: orangered;
+}
+.button  {
+    display: flex;
+    gap:20px
+}
+ .button p {
+    
+    background-color:#2B2046;
+    display: inline;
+   box-shadow: 0 1px 0.5px  5px #2B2046;
+   border-radius: 5px;
+}

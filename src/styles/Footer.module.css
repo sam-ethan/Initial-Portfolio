@@ -1,0 +1,86 @@
+.footerContainer {
+    display: flex;
+    margin-top: 20px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color:#0C0B12;
+    justify-content: center;
+    align-items: center;
+    gap:30%;
+}
+.left {
+    text-align: left;
+}
+
+.cards {
+gap: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.card  {
+    background-color: #1B1A26;
+    width: 180px;
+    height: fit-content;
+    border-radius: 5px;
+    border: none;
+   padding: 10px;
+    border:2px solid #1B1A26;
+color:white;
+}
+
+.card a {
+    text-decoration: none; 
+    color:white;
+}
+
+.right {
+text-align: left;
+ }
+
+ .right form {
+     display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .right input {
+    color: white;
+    padding:10px;
+    border: 2px solid #1B1A26;
+    background-color:#1B1A26 ;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+ }
+ .right textarea {
+     border: 2px solid #1B1A26;
+    background-color:#1B1A26 ;
+    border-radius: 20px;
+     color: white;
+    padding:10px;
+ }
+ .right button {
+    background-color:#E8631A;
+    color: white;
+    width: 150px;
+    height:60px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+
+ }
+
+ .footerMain  {
+    display: block;
+ }
+
+ .copyrights {
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding:20px;
+    background-color: #0C0B12;
+ }

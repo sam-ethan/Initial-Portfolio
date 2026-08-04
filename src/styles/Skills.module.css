@@ -1,0 +1,41 @@
+.container {
+    
+    display: block;
+   
+    margin-top: 90px;
+    background-color: #12111A;
+    
+}
+.container h1 {
+   text-align: center;
+}
+.frontend {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+   margin-left: 1px;
+    justify-content: center;
+}
+.frontend h1 {
+    margin-left: 15px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.frontendCards {
+    display:flex;
+}
+.cards {
+    border:2px solid white;
+    text-align: center;
+   width :100px;
+   height:150px;
+   padding :10px;
+   border-radius: 10px;
+   box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 60px;
+    color:white;
+    font-size: 10px;
+
+}

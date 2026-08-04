@@ -1,0 +1,41 @@
+        .experience {
+            display: block;
+            text-align: center;
+            margin-top:150px;
+            margin-bottom: 10px;
+            padding:30px;
+        }
+        .timeline {
+            position: relative;
+        
+            width:100%;
+            height: 150px;
+        display: block; 
+        }
+        .line {
+            position: absolute;
+            left:38px;
+            top:0;
+            width: 2px;
+            height: 30%;
+            background: #6E49FF;
+        }
+        .dot {
+            position: absolute;
+            left: 28px;
+            width:16px;
+            height:16px;
+            background: #FF7A1A;
+            border-radius: 50%;
+            border:3px solid #32264D;
+        }
+        .dot3 {
+            top:50px;
+        }
+        .right {
+            text-align:left;
+            margin-left: 80px;
+        }
+        .work {
+            width:auto; 
+        }

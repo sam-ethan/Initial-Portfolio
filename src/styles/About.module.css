@@ -1,0 +1,99 @@
+.about_Main{
+    margin-top: 100px;
+   
+ display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.image img{
+    margin-right: 200px;
+     
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid #4B2E83;
+    box-shadow:0  0  0 10px #352013;
+}
+
+.content h4 {
+    margin-right: 590px;
+    color:#FF7A28;
+    background-color: #352013;
+    box-shadow:0  0  0 10px #352013;
+    border-radius: 20px;
+
+}
+.content h1 {
+    margin-right: 10px;
+    font-weight: bolder;
+    color:white;
+    font-size: 40px;
+
+}
+.content p{
+    line-height: 1.5;
+    color:#A9A6B8
+}
+.card {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:2px solid black;
+    border:none;
+    background-color: #1B1A26;
+    padding:4px  15px;
+    border-radius: 10px;
+}
+.card a{
+    text-decoration: none;
+    color:#A9A6B8;
+    
+    
+}
+
+.Btn{
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap:80px;
+    align-items: center;
+}
+
+.Btn1  button {
+    padding:15px 30px;
+    background-color: #E8631A;
+    color:white;
+    opacity: 80%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.Btn1:hover  button {
+
+ opacity: 100%;   
+ cursor: pointer;
+}
+
+.Btn2 button{
+    white-space: nowrap;
+    padding:15px 40px;
+    background-color: #12111A;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    border:1px solid #6B46B8;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.Btn2:hover button {
+background-color: #6B46B8;
+cursor:pointer;
+}
