@@ -15,7 +15,7 @@ return(
     <>
     <div  id="About" className={styles.about_Main}>
         <div className={styles.image}>
-               <img src={`${import.meta.env.BASE_URL}images/profile.png`}  />
+               <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Profile" />
         </div>
         <div className={styles.content}>
             <h4>Mern Stack Developer</h4>
