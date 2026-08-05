@@ -3,10 +3,10 @@ import styles from '../styles/About.module.css'
 
 function About() {
 
-    const downloadResume = () => {
+  const downloadResume = () => {
   const link = document.createElement("a");
-  link.href = "/resume.pdf";
-  link.download = "Shankar_Resume.pdf"; // Name after download
+  link.href = `${import.meta.env.BASE_URL}resume.pdf`;
+  link.download = "Shankar_Resume.pdf";
   link.click();
 };
 
